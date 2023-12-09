@@ -17,9 +17,3 @@ arch:
     "cortex-m55",
     "cortex-m85",
   ]
-compiler:
-  gcc:
-    # libc to be linked to the binary with baremetal OS
-    # Must NOT be specified for building libraries
-    # ANY allows additional libc variants
-    newlib: [null, nano, nosys, linux, nano_nosys, picolibc, ANY]
