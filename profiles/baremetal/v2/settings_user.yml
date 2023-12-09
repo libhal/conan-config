@@ -22,4 +22,4 @@ compiler:
     # libc to be linked to the binary with baremetal OS
     # Must NOT be specified for building libraries
     # ANY allows additional libc variants
-    libc: [null, nano, nosys, linux, nano_nosys, picolibc, ANY]
+    newlib: [null, nano, nosys, linux, nano_nosys, picolibc, ANY]
