@@ -17,3 +17,5 @@ arch:
     "cortex-m55",
     "cortex-m85",
   ]
+
+libc: [null, "default", "custom"]
