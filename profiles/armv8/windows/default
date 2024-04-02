@@ -8,4 +8,4 @@ compiler.version=17
 os=Windows
 
 [conf]
-tools.build:compiler_executables={ 'c': 'clang-17', 'cpp': 'clang++-17' }
+tools.build:compiler_executables={ 'c': 'C:\Program Files\LLVM\bin\clang.exe', 'cpp': 'C:\Program Files\LLVM\bin\clang++.exe' }
