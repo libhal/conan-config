@@ -3,7 +3,7 @@ arch=armv8
 build_type=Release
 compiler=clang
 compiler.cppstd=23
-compiler.runtime=static
+compiler.libcxx=libstdc++
 compiler.version=17
 os=Windows
 
