@@ -10,3 +10,4 @@ os=Linux
 [conf]
 tools.build:compiler_executables={ 'c': 'clang-17', 'cpp': 'clang++-17' }
 tools.build:exelinkflags=["-fuse-ld=lld"]
+tools.cmake.cmaketoolchain:extra_variables={"CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS": "clang-scan-deps-17"}
